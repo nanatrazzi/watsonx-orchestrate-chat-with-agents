@@ -7,7 +7,9 @@ load_dotenv()
 IAM_API_KEY = os.getenv("IAM_API_KEY")
 WXO_INSTANCE_ID = os.getenv("WXO_INSTANCE_ID")
 
-base_url = f"https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/{WXO_INSTANCE_ID}/v1/orchestrate"
+# Change us-south to according the region where your instance is on IBM Cloud. (e.g: us-south, eu-de, us-east, au-syd, ca-to, br-sao)
+region_ibm_cloud = "us-south"
+base_url = f"https://api.{region}.watson-orchestrate.cloud.ibm.com/instances/{WXO_INSTANCE_ID}/v1/orchestrate"
 
 def list_all_agents():
     """
