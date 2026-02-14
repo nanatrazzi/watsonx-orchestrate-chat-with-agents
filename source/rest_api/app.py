@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from routes.agents import router as agents_router
+from routes.wxo_routes import router as agents_router
 
 app = FastAPI(title="Watsonx Orchestrate Agent API")
 app.include_router(agents_router)
