@@ -8,8 +8,11 @@ IAM_API_KEY = os.getenv("IAM_API_KEY")
 WXO_INSTANCE_ID = os.getenv("WXO_INSTANCE_ID")
 
 # Change us-south to according the region where your instance is on IBM Cloud. (e.g: us-south, eu-de, us-east, au-syd, ca-to, br-sao)
-region_ibm_cloud = "us-south"
-base_url = f"https://api.{region}.watson-orchestrate.cloud.ibm.com/instances/{WXO_INSTANCE_ID}/v1/orchestrate"
+REGION_IBM_CLOUD = "us-south"
+IAM_API_KEY = ""
+WXO_INSTANCE_ID = ""
+
+base_url = f"https://api.{REGION_IBM_CLOUD}.watson-orchestrate.cloud.ibm.com/instances/{WXO_INSTANCE_ID}/v1/orchestrate"
 
 def list_all_agents():
     """
@@ -84,7 +87,7 @@ def get_agent_response(message: str, agent_id: str, thread_id: str = None):
 
 def stream_agent_response(message: str, agent_id: str, thread_id: str = None):
     """
-    Funciton responsible to send a message to a specified agent and returns a streaming response handler.
+    Function responsible to send a message to a specified agent and returns a streaming response handler.
 
     This function constructs a payload with the user's message and agent ID, optionally including
     a thread ID to maintain conversation context. It sends a POST request to the `/runs/stream`
