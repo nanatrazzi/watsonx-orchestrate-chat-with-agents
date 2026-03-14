@@ -71,7 +71,7 @@ Wählen Sie den **Standort** Ihrer Instanz und den **Plan**, der am besten zu Ih
 
 ---
 
-Geben Sie abschließend den **Dienstnamen** ein, optional **Tags** und **Auslöse-Tags**, und wählen Sie eine **Ressourcengruppe** aus.
+Geben Sie abschließend den **Dienstnamen** ein, optional **Tags** und **Zugriffs-Tags**, und wählen Sie eine **Ressourcengruppe** aus.
 
 Akzeptieren Sie die IBM Cloud-Bedingungen auf der rechten Seite des Bildschirms und klicken Sie auf **Create**.
 
@@ -149,13 +149,13 @@ Geben Sie dem Schlüssel einen beschreibenden Namen, wie:
 
 > **Tipp**: Verwenden Sie Namen, die den Zweck, den Verantwortlichen oder die Umgebung angeben.
 
-**Description (Optional)**
+**Beschreibung (Optional)**
 
 Hier können Sie eine Beschreibung Ihres Schlüssels hinzufügen, um die Identifizierung zu erleichtern.
 
 ---
 
-**Lead Action (Aktion bei Verlust)**
+**Leaked Action (Aktion bei Verlust)**
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ Hier können Sie eine Beschreibung Ihres Schlüssels hinzufügen, um die Identif
 <td><b>Beschreibung</b></td>
 </tr>
 <tr>
-<td>🔘 <b>Disable the leaked key</b>  (empfohlen)</td>
+<td>🔘 <b>Disable the leaked key</b> (empfohlen)</td>
 <td>Der Schlüssel wird automatisch deaktiviert. Gute Option für die Produktion.</td>
 </tr>
 <tr>
