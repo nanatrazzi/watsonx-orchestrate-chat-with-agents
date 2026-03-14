@@ -2,7 +2,7 @@
 
 # Watsonx Orchestrate Chat with Agents
 
-### REST-API für die Kommunikation mit IBM Watson Orchestrate
+### REST-API für die Kommunikation mit IBM Watsonx Orchestrate
 
 [![IBM Cloud](https://img.shields.io/badge/IBM%20Cloud-Powered-blue?style=for-the-badge&logo=ibm)](https://cloud.ibm.com)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
