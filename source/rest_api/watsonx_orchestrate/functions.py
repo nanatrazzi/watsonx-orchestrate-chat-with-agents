@@ -4,13 +4,10 @@ from .stream_content import stream_response_from_wxo_agent
 
 load_dotenv()
 
+
+REGION_IBM_CLOUD = "us-south" # Change us-south to according the region where your instance is on IBM Cloud. (e.g: us-south, eu-de, us-east, au-syd, ca-to, br-sao)
 IAM_API_KEY = os.getenv("IAM_API_KEY")
 WXO_INSTANCE_ID = os.getenv("WXO_INSTANCE_ID")
-
-# Change us-south to according the region where your instance is on IBM Cloud. (e.g: us-south, eu-de, us-east, au-syd, ca-to, br-sao)
-REGION_IBM_CLOUD = "us-south"
-IAM_API_KEY = ""
-WXO_INSTANCE_ID = ""
 
 base_url = f"https://api.{REGION_IBM_CLOUD}.watson-orchestrate.cloud.ibm.com/instances/{WXO_INSTANCE_ID}/v1/orchestrate"
 
