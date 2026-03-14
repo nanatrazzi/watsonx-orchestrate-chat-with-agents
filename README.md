@@ -1,4 +1,4 @@
-## 🇧🇷 Português (PT-BR)
+## Português (PT-BR) 🇧🇷 
 
 Asset de referência para comunicação com agentes desenvolvidos com Watsonx Orchestrate
 ```
@@ -7,7 +7,7 @@ Desenvolvido por Nathalia Trazzi
 ```
 -> [Acessar o Build Book](./README_PT_BR.pdf)
 
-## 🇺🇸 English 
+## English 
 
 Reference asset for communication with agents developed using Watsonx Orchestrate
 ```
